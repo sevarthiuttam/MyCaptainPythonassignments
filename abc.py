@@ -1,3 +1,4 @@
-from math import pi
-radius=float(input())
-print ("The area of the circle with radius"+str(radius)+" is:"+str(pi*radius**2))
+import math
+radius = float(input("Input the radius of the circle: "))
+area = math.pi * (radius ** 2)
+print(f"The area of the circle with radius {radius} is: {area}")
